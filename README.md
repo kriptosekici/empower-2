@@ -34,8 +34,8 @@ source $HOME/.bash_profile
 [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
 
 # set vars ( WALLET VE MONİKER KISMINI DEĞİŞTİRİNİZ )
-echo "export WALLET="wallet"" >> $HOME/.bash_profile
-echo "export MONIKER="test"" >> $HOME/.bash_profile
+echo "export WALLET="kriptosekici"" >> $HOME/.bash_profile
+echo "export MONIKER="kriptosekici"" >> $HOME/.bash_profile
 echo "export EMPOWER_CHAIN_ID="circulus-1"" >> $HOME/.bash_profile
 echo "export EMPOWER_PORT="16"" >> $HOME/.bash_profile
 source $HOME/.bash_profile
@@ -122,11 +122,7 @@ sudo systemctl restart empowerd && sudo journalctl -u empowerd -f -o cat
 
 # cüzdan olusturma yada import etme
 ```
-empowerd keys add cüzdan-adı
-```
-# import
-```
-empowerd keys add cüzdan-adı --recover
+empowerd keys add kriptosekici --recover
 ```
 # cüzdan sorgulama
 ```
