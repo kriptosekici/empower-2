@@ -134,16 +134,16 @@ empowerd keys list
 ```
 empowerd tx staking create-validator \
   --amount 1000000umpwr \
-  --from cüzdan-adı \
+  --from kriptosekici \
   --commission-max-change-rate "0.01" \
   --commission-max-rate "0.2" \
   --commission-rate "0.1" \
   --min-self-delegation "1" \
   --pubkey  $(empowerd tendermint show-validator) \
-  --moniker node-adı \
+  --moniker kriptosekici \
   --website "websiteniz"
   --identity keybase.io idniz \
-  --details "Core Node Community" \
+  --details "Rues Community" \
   --chain-id circulus-1
   --y
 ```
