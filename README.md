@@ -133,7 +133,7 @@ empowerd keys list
 ### Senkronize olmayı bekleyin ardından validatör oluşturun (not: faucetin bir kaç gün içinde açılacağı söylendi)
 ```
 empowerd tx staking create-validator \
-  --amount 900000umpwr \
+  --amount 1000000umpwr \
   --from kriptosekici \
   --commission-max-change-rate "0.01" \
   --commission-max-rate "0.2" \
