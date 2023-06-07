@@ -141,9 +141,11 @@ empowerd tx staking create-validator \
   --min-self-delegation "1" \
   --pubkey  $(empowerd tendermint show-validator) \
   --moniker kriptosekici \
-  --website "websiteniz"
-  --chain-id circulus-1
-  --y
+  --website="arn" \
+  --identity="kriptosekici" \
+  --details="arn" \
+  --chain-id circulus-1 \
+  -y
 ```
 ## Restart node
 ```
