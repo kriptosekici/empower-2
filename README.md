@@ -142,7 +142,6 @@ empowerd tx staking create-validator \
   --pubkey  $(empowerd tendermint show-validator) \
   --moniker kriptosekici \
   --website "websiteniz"
-  --identity kriptosekici \
   --details "Rues Community" \
   --chain-id circulus-1
   --y
