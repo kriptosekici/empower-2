@@ -133,7 +133,7 @@ empowerd keys list
 ### Senkronize olmayı bekleyin ardından validatör oluşturun (not: faucetin bir kaç gün içinde açılacağı söylendi)
 ```
 empowerd tx staking create-validator \
---amount=9000000umpwr \
+--amount=900000umpwr \
 --pubkey=$(empowerd tendermint show-validator) \
 --moniker="kriptosekici" \
 --chain-id=circulus-1 \
