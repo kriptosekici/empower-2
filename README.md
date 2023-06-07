@@ -133,19 +133,17 @@ empowerd keys list
 ### Senkronize olmayı bekleyin ardından validatör oluşturun (not: faucetin bir kaç gün içinde açılacağı söylendi)
 ```
 empowerd tx staking create-validator \
-  --amount 1000000umpwr \
-  --from kriptosekici \
-  --commission-max-change-rate "0.01" \
-  --commission-max-rate "0.2" \
-  --commission-rate "0.1" \
-  --min-self-delegation "1" \
-  --pubkey  $(empowerd tendermint show-validator) \
-  --moniker kriptosekici \
-  --website="arn" \
-  --identity="kriptosekici" \
-  --details="arn" \
-  --chain-id circulus-1 \
-  -y
+--amount=9000000umpwr \
+--pubkey=$(empowerd tendermint show-validator) \
+--moniker="kriptosekici" \
+--chain-id=circulus-1 \
+--commission-rate=0.1 \
+--commission-max-rate=0.2 \
+--commission-max-change-rate=0.05 \
+--min-self-delegation=1 \
+--fees=10000umpwr \
+--from=kriptosekici \
+-y
 ```
 ## Restart node
 ```
